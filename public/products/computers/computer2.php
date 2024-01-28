@@ -49,14 +49,16 @@ require '../layout.php';
 					</div>
 				</li>
 			</ul>
-			<h5>Have a question left unanswered after reading reviews and existing questions? Ask away:</h5>
-			<form action="" method="post">
-				<label>Name</label> <input type="text" name="1" />
-				<label>Date</label> <input type="date" name="2" />
-				<label>Question</label> <textarea></textarea>
+			<?php
+			if(isset($_GET['questions'])) {
+    		$questions = $_GET['questions'];
+			} 
+			else {
+    		$echo "There are no questions available to view.";
+			}
 
-				<input type="submit" name="submit" value="submit" />
-			</form>
+	    	$productquestion;
+			?>
 
 		</main>
 </html>

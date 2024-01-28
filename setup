@@ -1,8 +1,0 @@
-// use httpsv.je to connect to the server
-
-// use docker-compose up -d to run development environment in terminal
-
-// use ctrl-c or docker-compose down to close the environment in terminal
-
-// lecturer web for help https://r.je/vje-minimal-virtual-server
-

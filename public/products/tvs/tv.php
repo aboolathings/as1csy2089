@@ -1,7 +1,6 @@
 <?php
 session_start();
 $pgTitle = 'TVs';
-require '../layout.php';
 
 ?>
 

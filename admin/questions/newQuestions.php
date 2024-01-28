@@ -18,3 +18,5 @@ function answerQuestions(questions) {
     $newQuestions[$index] = $newAnswer;
       updateQuestions($newQuestions);
   }
+
+  ?>
